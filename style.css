@@ -1,5 +1,58 @@
 body {
     margin: 0;
     background: black;
-    background-image: url(https://s2.best-wallpaper.net/wallpaper/1366x768/1611/Gamer-popular-games-character_1366x768.jpg)
+}
+:root {
+    --main-color-: whitesmoke;
+}
+.bg {
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.bg-text {
+    color:var(--main-color-);
+    font-weight: bold;
+    border: 3px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20%;
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;;
+}
+.custom-section {
+    padding: 50px;
+}
+.cb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.card-text {
+    color:var(--main-color-);
+    font-family: 'Anuphan', sans-serif;
+    
+}
+.table {
+    color: whitesmoke
+}
+footer {
+    background: rgb(20, 19, 19);
+    padding: 20px 0;
+    color:var(--main-color-);
+    margin-top: 40px;
+}
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+  }
+.home {
+    background-image: url("./images/istockphoto-1386914608-170667a.jpg");
 }
